@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get">
+        <h2>Formulario de registro</h2>
+        <fieldset>
+            
+            <legend>Formulario opciones</legend>
+            Instituto:
+            <input type="text" name="Instituto" value=""/> <br/><br/>
+            Estudios elegidos:
+            <input type="text" name="Estudios" value=""/><br/><br/>
+            Nombre:
+            <input type="text" name="Nombre" value=""/><br/><br/>
+            Apellidos:
+            <input type="text" name="Apellidos" value=""/><br/><br/>
+            Email:
+            <input type="text" name="Email" value=""/><br/><br/>
+            Elija el color:
+            <input type="color" name="red" value="red2g" /><br/><br/>
+
+            <label for="descripcion">Descripción del producto</label> <br/>
+            <textarea id="descripcion" name="descripcion" cols="47" rows="5"></textarea><br/>
+            
+            <input type="radio" name="red" value="red2g" /> 2G <br/>
+            <input type="radio" name="red" value="red3g" /> 3G <br/>
+            <input type="radio" name="red" value="red4g" /> 4G <br/><br/>
+            Elije una fecha: 
+            <input type="date" name="" value=""/> 
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Por favor, complete estas opciones</legend>
+ 
+            Elija un fichero
+            <input type="file" name="archivo" value="archivo" /> <br/><br/>
+
+            Sistema operativo
+            <select id="Conector" name="conector">
+                <optgroup label="Sistemas Operativos">
+                    <option value="usb" selected="selected">USB</option>
+                    <option value="paralelo">Paralelo</option>
+                    <option value="ps2">PS2</option>
+                </optgroup>
+            </select><br/><br/>
+
+            <input type="radio" name="sistemas" value="mac" /> Mac
+            <input type="radio" name="sistemas" value="windows" /> Windows
+            <input type="radio" name="sistemas" value="linux" /> Linux<br/><br/>
+
+            Elije una fecha: 
+            <input type="date" name="" value=""/> 
+
+        </fieldset>
+    </form>
+</html>
